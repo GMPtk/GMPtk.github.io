@@ -14,8 +14,8 @@
 
 ### Estimation
 
-- [Error models](./modules/estimation/error_models.md)
-- [Iteration options](./modules/estimation/iteration_options.md)
+- [Error models](./modules/estimation/errormodels/index.md)
+- [Iteration options](./modules/estimation/iterationoptions/index.md)
 
 
 [Home](../index.md)
