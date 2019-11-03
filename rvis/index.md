@@ -8,7 +8,7 @@
 ## Application 
 
 - Start-up
-- Import R code
+- [Import](./application/import/index.md)
 
 ## Modules
 
