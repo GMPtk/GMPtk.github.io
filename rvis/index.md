@@ -12,8 +12,9 @@
 
 ## Modules
 
-### Estimation
+### [Estimation](./modules/estimation/index.md)
 
+- [Prior distributions](./modules/estimation/priordistributions/index.md)
 - [Error models](./modules/estimation/errormodels/index.md)
 - [Iteration options](./modules/estimation/iterationoptions/index.md)
 
