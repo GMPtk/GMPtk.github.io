@@ -12,6 +12,13 @@
 
 ## Modules
 
+### [Sensitivity](./modules/sensitivity/index.md)
+
+- [Parameters](./modules/sensitivity/parameters/index.md)
+- [Design](./modules/sensitivity/design/index.md)
+- [Ranking](./modules/sensitivity/ranking/index.md)
+
+
 ### [Estimation](./modules/estimation/index.md)
 
 - [Prior distributions](./modules/estimation/priordistributions/index.md)
