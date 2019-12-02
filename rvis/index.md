@@ -14,7 +14,7 @@
 
 ### [Sampling](./modules/sampling/index.md)
 
-- [Configure Latin hypercube sampling](./modules/sampling/configurelhs/index.md)
+- [Latin hypercube sampling](./modules/sampling/configurelhs/index.md)
 
 ### [Sensitivity](./modules/sensitivity/index.md)
 
