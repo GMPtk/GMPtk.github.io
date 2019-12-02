@@ -9,4 +9,4 @@
 
 ## See also
 
-- [Configure Latin hypercube sampling](./configurelhs/index.md)
+- [Latin hypercube sampling](./configurelhs/index.md)
