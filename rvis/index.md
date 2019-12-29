@@ -14,7 +14,10 @@
 
 ### [Sampling](./modules/sampling/index.md)
 
+- [Samples](./modules/sampling/samples/index.md)
+- [Design](./modules/sampling/design/index.md)
 - [Latin hypercube sampling](./modules/sampling/configurelhs/index.md)
+- [Rank correlation](./modules/sampling/configurerc/index.md)
 
 ### [Sensitivity](./modules/sensitivity/index.md)
 
