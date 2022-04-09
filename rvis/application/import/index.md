@@ -17,7 +17,7 @@ Ensure the script meets these requirements:
 
 ## Import MCSim Simulation
 
-For the required layout, see [example MCSim .in file](./mcsim_import_example.in).
+For the required layout of a definition file, see [example MCSim .in file](./mcsim_import_example.in).
 
 Ensure the .in file meets these requirements:
 
@@ -25,3 +25,4 @@ Ensure the .in file meets these requirements:
 * Assign parameters at the beginning of the `Simulation {}` block
 * Define a single `PrintStep()` closure at the end of the `Simulation {}` block
 * For all parameters and outputs, append `# description [unit]` (or `# []` if none)
+* File name is same as executable name and is in the same directory
