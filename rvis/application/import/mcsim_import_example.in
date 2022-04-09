@@ -1,0 +1,31 @@
+Integrate (Lsodes, 1e-6, 1e-6, 1);
+
+# Reproduce the exact layout shown below
+# If a parameter or output has no description and no unit, append # []
+
+# Description: example from MCSim repo
+
+Simulation {
+
+  InhMag = 72;    # inhaled concentration [ppm]
+  Period = 1e10;  # period of the exposure/no exposure cycle [min]
+  Exposure = 240; # exposure duration within a period [min]
+
+  # events here
+
+  PrintStep (
+    Q_fat,        # quantity of PERC in the fat [mg]
+    Q_wp,         # quantity in the well-perfused compartment [mg]
+    Q_pp,         # quantity in the poorly-perfused compartment [mg]
+    Q_liv,        # quantity in the liver [mg]
+    Q_exh,        # quantity exhaled [mg]
+    Q_met,        # quantity of metabolite formed [mg]
+    C_exh_ug,     # ug/l in the exhaled air [ug/l]
+    C_ven,        # mg/l in the venous blood [mg/l]
+    200,          # start time [min]
+    10020,        # end time [min]
+    40            # time step [min]
+    );
+}
+
+END.
